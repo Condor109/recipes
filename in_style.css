@@ -1,6 +1,4 @@
-*{
-  background-color: rgb(255, 255, 255);
-}
+
 h1{
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -9,11 +7,33 @@ h1{
 }
 div.card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(239, 247, 247);
+  margin: 20px;
 }
 
 .card .card_child{
+  background-color: rgb(195, 209, 209);
+
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+img{
+  width: 100px;
+  height: auto;
+}
+
+span{
+  align-self: center;
+  padding: 10px;
+  margin: 10px
 
 }
