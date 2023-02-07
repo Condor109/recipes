@@ -1,17 +1,16 @@
 *{
-  background-color: rgb(212, 194, 132);
+  background-color: rgb(255, 255, 255);
 }
 h1{
-  background-color: rgb(25, 23, 49);
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  color: white;
+  color: black;
+  font-weight: 600;
 }
-.l_1{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  background-color: rgb(202, 160, 108);
-}
-.l_1 .aa{
-  background-color: aliceblue;
-
+ul.l-1{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  box-sizing: border-box;
+  
 }
